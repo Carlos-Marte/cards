@@ -1,3 +1,15 @@
 body {
     font-family: $font-family;
 }
+
+.main {
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 1em;
+    background: $white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    place-content: center;
+    place-items: center;
+    gap: 1em;
+}
